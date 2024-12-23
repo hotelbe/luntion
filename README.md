@@ -15,9 +15,8 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
 
-
 Template created! To get started run:
-    
+
 ```bash
 cd luntion
 pnpm install
@@ -26,16 +25,25 @@ pnpm tauri ios init
 ```
 
 For Desktop development, run:
+
 ```bash
 pnpm tauri dev
 ```
 
 For Android development, run:
+
 ```bash
 pnpm tauri android dev
 ```
 
 For iOS development, run:
+
 ```bash
 pnpm tauri ios dev
+```
+
+For Desktop build, run:
+
+```bash
+cargo tauri build
 ```
