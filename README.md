@@ -1,4 +1,12 @@
-# Tauri + Vue + TypeScript
+# Tauri + Vue3 + TypeScript
+
+[![Tauri](https://img.shields.io/badge/Platform-Tauri-ffc032)](https://tauri.app/)
+[![Vue3](https://img.shields.io/badge/Framework-Vue3-42b883)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Develop-Vite-747bff)](https://vitejs.dev)
+[![Pinia](https://img.shields.io/badge/Store-Pinia-f7d336)](https://pinia.vuejs.org)
+[![Unocss](https://img.shields.io/badge/CSS-Unocss-858585)](https://uno.antfu.me/)
+
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
@@ -46,4 +54,29 @@ For Desktop build, run:
 
 ```bash
 cargo tauri build
+```
+
+
+## Develop
+
+### Install Tauri && tauri-bundler
+
+See Tauri official: [docs](https://tauri.app/v1/guides/)
+
+### Project setup
+
+```bash
+pnpm install
+```
+
+### Compiles and hot-reloads for development
+
+```bash
+pnpm run tauri dev
+```
+
+### Compiles and minifies for production
+
+```bash
+pnpm run tauri build
 ```
