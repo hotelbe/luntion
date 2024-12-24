@@ -7,7 +7,6 @@
 [![Pinia](https://img.shields.io/badge/Store-Pinia-f7d336)](https://pinia.vuejs.org)
 [![Unocss](https://img.shields.io/badge/CSS-Unocss-858585)](https://uno.antfu.me/)
 
-
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
 ## Recommended IDE Setup
@@ -25,12 +24,15 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 Template created! To get started run:
 
+See Tauri official: [docs](https://tauri.app/v1/guides/)
+
 ```bash
 cd luntion
 pnpm install
 pnpm tauri android init
 pnpm tauri ios init
 ```
+
 
 For Desktop development, run:
 
@@ -56,27 +58,8 @@ For Desktop build, run:
 cargo tauri build
 ```
 
-
-## Develop
-
-### Install Tauri && tauri-bundler
-
-See Tauri official: [docs](https://tauri.app/v1/guides/)
-
-### Project setup
+or
 
 ```bash
-pnpm install
-```
-
-### Compiles and hot-reloads for development
-
-```bash
-pnpm run tauri dev
-```
-
-### Compiles and minifies for production
-
-```bash
-pnpm run tauri build
+pnpm tauri build
 ```
